@@ -65,7 +65,7 @@ p {
     height: 50px;
 }
 
-/* Animação ao passar o mouse sobre os ícones de habilidades */
+
 .skills span:hover {
     transform: scale(1.2) rotate(10deg);
     color: #FF5E5E;
@@ -107,7 +107,7 @@ p {
     text-align: left;
 }
 
-/* Animação ao passar o mouse sobre os cartões de projeto */
+
 .project-card:hover {
     transform: scale(1.05);
 }
@@ -147,7 +147,7 @@ p {
     transition: transform 0.3s ease;
 }
 
-/* Animação ao passar o mouse sobre os cartões de serviços */
+
 .service-card:hover {
     transform: scale(1.05);
 }
@@ -181,7 +181,7 @@ p {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Animação ao passar o mouse sobre os links de contato */
+
 .contact-links a:hover {
     background-color: #FF7B7B;
     transform: scale(1.1);
