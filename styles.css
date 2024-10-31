@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -11,7 +10,6 @@ body {
 h1, h2, h3, p {
     margin: 10px 0;
 }
-
 
 #home {
     display: flex;
@@ -59,6 +57,18 @@ p {
     display: inline-block;
     height: 40px;
     border-radius: 50%;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skills .img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Animação ao passar o mouse sobre os ícones de habilidades */
+.skills span:hover {
+    transform: scale(1.2) rotate(10deg);
+    color: #FF5E5E;
 }
 
 .scroll-down {
@@ -66,7 +76,6 @@ p {
     color: #FF5E5E;
     margin-top: 20px;
 }
-
 
 #portfolio {
     padding: 60px 20px;
@@ -94,8 +103,13 @@ p {
     background-color: #161B22;
     border-radius: 10px;
     padding: 20px;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
     text-align: left;
+}
+
+/* Animação ao passar o mouse sobre os cartões de projeto */
+.project-card:hover {
+    transform: scale(1.05);
 }
 
 .project-card img {
@@ -114,7 +128,6 @@ p {
     font-size: 1rem;
 }
 
-
 #services {
     padding: 60px 20px;
 }
@@ -131,6 +144,12 @@ p {
     padding: 20px;
     border-radius: 10px;
     width: 300px;
+    transition: transform 0.3s ease;
+}
+
+/* Animação ao passar o mouse sobre os cartões de serviços */
+.service-card:hover {
+    transform: scale(1.05);
 }
 
 .service-card h4 {
@@ -142,7 +161,6 @@ p {
     color: #C9D1D9;
     font-size: 1rem;
 }
-
 
 #contact {
     padding: 60px 20px;
@@ -160,9 +178,11 @@ p {
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Animação ao passar o mouse sobre os links de contato */
 .contact-links a:hover {
     background-color: #FF7B7B;
+    transform: scale(1.1);
 }
